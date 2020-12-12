@@ -1,0 +1,8 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500&display=swap');
+
+body {
+    background-color: #faf0e6; /* linen */
+    color: #292421; /* ivory black */
+    font-family: Cormorant, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}

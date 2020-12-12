@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Llylgamyn.Core\Llylgamyn.Core.csproj" />
+    <ProjectReference Include="..\Llylgamyn.Infrastructure\Llylgamyn.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
