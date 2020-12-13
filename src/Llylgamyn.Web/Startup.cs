@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Llylgamyn.Infrastructure;
 
 namespace Llylgamyn.Web
 {
@@ -22,6 +23,7 @@ namespace Llylgamyn.Web
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddLlylgamynContext(_config.GetConnectionString("Default"));
             services.AddControllersWithViews();
         }
 
