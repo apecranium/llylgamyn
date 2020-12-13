@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1",
+    "node-sass": "^5.0.0"
+  }
+}
